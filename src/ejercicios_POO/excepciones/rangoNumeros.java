@@ -21,9 +21,9 @@ public class rangoNumeros {
         }
     }
 }
-class ExcepcionPropia extends Exception { // creación de la excepcion propia
-    public ExcepcionPropia() {}
-    public ExcepcionPropia(String message) {
+class ExcepcionPropia1 extends Exception { // creación de la excepcion propia
+    public ExcepcionPropia1() {}
+    public ExcepcionPropia1(String message) {
         super(message);
     }
 }
